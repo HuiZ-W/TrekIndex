@@ -1,0 +1,7 @@
+build/
+results/
+gen/
+data/
+__pycache__/
+*.pyc
+.DS_Store
