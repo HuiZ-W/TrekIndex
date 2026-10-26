@@ -8,8 +8,8 @@ vertex, contracts the tree-like periphery of the graph into shortcut arcs with w
 hub bitmasks and label-pruned searches.
 
 This repository contains the code of the paper *TrekIndex: A Single Index for d-Separation-Based Queries on
-Large Causal DAGs*. The online appendix (proofs and additional results) is
-[`paper/TrekIndex-appendix.pdf`](paper/TrekIndex-appendix.pdf).
+Large Causal DAGs*. The full version (the submitted paper with its appendix: proofs and additional results)
+is [`paper/TrekIndex-full.pdf`](paper/TrekIndex-full.pdf).
 
 ## Repository layout
 
@@ -25,7 +25,7 @@ Large Causal DAGs*. The online appendix (proofs and additional results) is
 | `tools/` | `causenet_dag.cpp` (relation list to DAG by evidence-ordered cycle breaking), `markov_workload.cpp` (local-Markov requests), `dump_running_example.cpp` (the index of the paper's running example) |
 | `tests/` | invariant tests against independent oracles, and a brute-force check of the reduction |
 | `scripts/` | dataset preparation, experiment job lists and runner, and the generator of the paper's tables and figures |
-| `paper/TrekIndex-appendix.pdf` | the online appendix (proofs and additional results) |
+| `paper/TrekIndex-full.pdf` | the full version (the submitted paper with its appendix: proofs and additional results) |
 
 Scripts (Python 3 and bash):
 
